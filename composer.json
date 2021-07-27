@@ -1,0 +1,34 @@
+{
+  "name": "landofcoder/module-social-login-lib",
+  "description": "Library for Lof_SocialLogin Module",
+  "require": {
+    "abraham/twitteroauth":"*",
+    "facebook/graph-sdk":"*",
+    "google/apiclient":"^2.10",
+    "hybridauth/hybridauth": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "keywords": [
+    "landofcoder",
+    "landofcoder Social Login",
+    "Social Login magento 2"
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+        "name": "Landofcoder",
+        "email": "landofcoder@gmail.com",
+        "role": "Magento 2 Lof Social Login"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+        "Lof\\SocialLoginLib\\": ""
+    }
+  }
+}
